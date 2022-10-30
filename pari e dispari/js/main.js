@@ -13,3 +13,17 @@ console.log(cpuNumber);
 const sum = cpuNumber+userNumber;
 console.log(sum);
 
+//. stabilire se la somma pari o dispari
+function oddOrEven(number){
+if (number % 2 == 0){
+return "pari";
+    }else{
+        return "dispari";
+       
+}
+}
+if(oddOrEven(sum) === choice){
+  alert("Hai vinto")
+}else{
+  alert("Hai perso")
+}
