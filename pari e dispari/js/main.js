@@ -7,6 +7,7 @@ console.log(userNumber);
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min)) + min;
 }
+const cpuNumber = getRndInteger(1, 5);
 console.log(cpuNumber);
 //.sommo il totale della cpuNumber e userNumber
 const sum = cpuNumber+userNumber;
